@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" [routerLink]="['/fotos']">FotosFirebase</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link " [routerLink]="['/fotos']">Fotos</a>
+            <a class="nav-item nav-link" [routerLink]="['/carga']">Subir fotos</a>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-3">
+    <router-outlet></router-outlet>
+
+</div>
